@@ -21,7 +21,8 @@ i18n
         translation: azTranslation
       }
     },
-    fallbackLng: 'en',
+    fallbackLng: ['az', 'en'],
+    lng: 'az',
     debug: true,
     interpolation: {
       escapeValue: false
