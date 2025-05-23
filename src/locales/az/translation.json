@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "pricing": "Qiymətlər",
+    "contact": "Əlaqə"
+  },
+  "hero": {
+    "title": "Professional Kompüter və Mobil Təmir Xidmətləri",
+    "subtitle": "Bütün cihazlarınız üçün sürətli, etibarlı və professional təmir xidmətləri",
+    "cta": "Başla"
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "subtitle": "Texnologiya təmiri və texniki xidmətdə etibarlı tərəfdaşınız",
+    "stats": {
+      "years": "İl Təcrübə",
+      "clients": "Məmnun Müştəri",
+      "repairs": "Uğurlu Təmir",
+      "satisfaction": "Müştəri Məmnuniyyəti"
+    },
+    "story": {
+      "title": "Bizim Hekayəmiz",
+      "description": "2024-cü ildə qurulmuş, minlərlə məmnun müştəriyə xidmət göstərərək texnologiya təmiri və texniki xidmətin ön sıralarında yer alırıq.",
+      "milestones": {
+        "1": {
+          "title": "Başlanğıc",
+          "description": "Böyük bir vizyonla kiçik bir təmir emalatxanası kimi başladıq"
+        },
+        "2": {
+          "title": "Böyümə və İnnovasiya",
+          "description": "Xidmətləri genişləndirdik və yeni texnologiyaları tətbiq etdik"
+        },
+        "3": {
+          "title": "Bu Gün və İrəli",
+          "description": "Ən son texnologiyalarla sənayedə liderlik edirik"
+        }
+      }
+    },
+    "team": {
+      "title": "Komandamız",
+      "subtitle": "Uğurumuzun arxasında duran mütəxəssislərlə tanış olun",
+      "roles": {
+        "ceo": "Baş Direktor",
+        "technician": "Baş Texnik",
+        "support": "Müştəri Dəstəyi"
+      }
+    },
+    "values": {
+      "title": "Dəyərlərimiz",
+      "subtitle": "İşimizə rəhbərlik edən prinsiplər",
+      "quality": {
+        "title": "Keyfiyyət Əvvəlcə",
+        "description": "Xidmətlərimizin keyfiyyətindən heç vaxt imtina etmirik"
+      },
+      "innovation": {
+        "title": "İnnovasiya",
+        "description": "Daim inkişaf edir və yeni texnologiyaları tətbiq edirik"
+      },
+      "service": {
+        "title": "Müştəri Xidməti",
+        "description": "Müştəri məmnuniyyəti bizim əsas prioritetimizdir"
+      }
+    }
+  },
+  "services": {
+    "title": "Xidmətlərimiz",
+    "subtitle": "Geniş təmir xidmətləri təklif edirik",
+    "description": "Ekspert komandamız bütün cihazlarınız üçün hərtərəfli təmir xidmətləri təqdim edir. Biz yalnız orijinal ehtiyat hissələrindən istifadə edir və ən yüksək xidmət keyfiyyətini təmin etmək üçün sənaye standartlarına əməl edirik.",
+    "computer": {
+      "title": "Kompüter Təmiri",
+      "description": "Bütün marka və modellər üçün professional kompüter təmir xidmətləri",
+      "features": [
+        "Hardware diaqnostika və təmiri",
+        "Proqram təminatının quraşdırılması və konfiqurasiyası",
+        "Virus təmizləmə və sistem optimizasiyası",
+        "Məlumat bərpası və ehtiyat nüsxəsi",
+        "Komponentlərin yenilənməsi və dəyişdirilməsi"
+      ]
+    },
+    "mobile": {
+      "title": "Mobil Təmir",
+      "description": "Bütün cihazlar üçün ekspert mobil telefon təmir xidmətləri",
+      "features": [
+        "Ekran dəyişdirmə",
+        "Batareya dəyişdirmə",
+        "Kamera təmiri",
+        "Su zərəri təmiri",
+        "Proqram təminatı problemləri və yeniləmələr"
+      ]
+    },
+    "laptop": {
+      "title": "Noutbuk Təmiri",
+      "description": "Hərtərəfli noutbuk təmir və texniki xidmət",
+      "features": [
+        "Hardware diaqnostika",
+        "Ekran və klaviatura dəyişdirmə",
+        "Batareya və enerji problemləri",
+        "Ana lövhə təmiri",
+        "Soyutma sistemi texniki xidməti"
+      ]
+    },
+    "tablet": {
+      "title": "Planşet Təmiri",
+      "description": "Professional planşet təmir xidmətləri",
+      "features": [
+        "Ekran təmiri",
+        "Batareya dəyişdirmə",
+        "Yükləmə portu təmiri",
+        "Proqram təminatı problemlərinin həlli",
+        "Məlumat bərpası"
+      ]
+    },
+    "network": {
+      "title": "Şəbəkə Həlləri",
+      "description": "Tam şəbəkə quraşdırması və problemlərin həlli",
+      "features": [
+        "Şəbəkə quraşdırması",
+        "Wi-Fi quraşdırması və optimizasiyası",
+        "Təhlükəsizlik konfiqurasiyası",
+        "Problemlərin həlli",
+        "Performans optimizasiyası"
+      ]
+    },
+    "data": {
+      "title": "Məlumat Bərpası",
+      "description": "Professional məlumat bərpası xidmətləri",
+      "features": [
+        "Sərt disk bərpası",
+        "SSD məlumat bərpası",
+        "RAID bərpası",
+        "Mobil cihaz bərpası",
+        "Ehtiyat nüsxəsi həlləri"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Bizimlə Əlaqə",
+    "subtitle": "Bütün texnoloji təmir ehtiyaclarınızda sizə kömək etmək üçün buradayıq. Bu gün bizimlə əlaqə saxlayın!",
+    "form": {
+      "title": "Bizə Mesaj Göndərin",
+      "name": "Adınız",
+      "email": "Email Ünvanı",
+      "phone": "Telefon Nömrəsi",
+      "subject": "Mövzu",
+      "message": "Mesajınız",
+      "submit": "Göndər",
+      "sending": "Göndərilir...",
+      "success": "Mesajınız uğurla göndərildi! Tezliklə sizinlə əlaqə saxlayacağıq.",
+      "error": "Xəta baş verdi. Zəhmət olmasa daha sonra yenidən cəhd edin.",
+      "loading": "Mesajınız göndərilir..."
+    },
+    "info": {
+      "title": "Əlaqə Məlumatları",
+      "address": {
+        "title": "Ünvanımız",
+        "value": "Hezi Aslanov, Baku"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+994 77 334 44 99"
+      },
+      "email": {
+        "title": "Email",
+        "value": "info@texnochip.az"
+      },
+      "hours": {
+        "title": "İş Saatları",
+        "value": "Bazar ertəsi - Şənbə: 09:00 - 19:00"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Qiymət Planları",
+    "subtitle": "Ehtiyaclarınız üçün mükəmməl planı seçin",
+    "month": "ay",
+    "popular": "Ən Populyar",
+    "cta": "Başla",
+    "plans": {
+      "basic": {
+        "title": "Əsas Plan"
+      },
+      "standard": {
+        "title": "Standart Plan"
+      },
+      "premium": {
+        "title": "Premium Plan"
+      }
+    },
+    "features": {
+      "diagnosis": "Pulsuz Diaqnostika",
+      "software": "Proqram Quraşdırma",
+      "cleaning": "Cihaz Təmizliyi",
+      "support": "Əsas Dəstək",
+      "parts": "Hissələrin Dəyişdirilməsi",
+      "warranty": "90 Gün Zəmanət",
+      "priority": "Prioritet Xidmət",
+      "backup": "Məlumat Ehtiyatı"
+    },
+    "faq": {
+      "title": "Tez-tez Soruşulan Suallar",
+      "subtitle": "Xidmətlərimiz haqqında ümumi sualların cavablarını tapın",
+      "questions": {
+        "1": {
+          "title": "Əsas planda nə daxildir?",
+          "answer": "Əsas plan pulsuz diaqnostika, proqram quraşdırma, cihaz təmizliyi və əsas dəstəyi əhatə edir."
+        },
+        "2": {
+          "title": "Təmir nə qədər vaxt aparır?",
+          "answer": "Əksər təmirlər problemin mürəkkəbliyindən asılı olaraq 24-48 saat ərzində tamamlanır."
+        },
+        "3": {
+          "title": "Zəmanət təklif edirsiniz?",
+          "answer": "Bəli, bütün təmirlərə və hissələrin dəyişdirilməsinə 90 günlük zəmanət veririk."
+        },
+        "4": {
+          "title": "Planımı daha sonra yüksəldə bilərəm?",
+          "answer": "Bəli, planınızı istənilən vaxt yüksəldə bilərsiniz. Seçimlərinizi müzakirə etmək üçün bizimlə əlaqə saxlayın."
+        }
+      }
+    },
+    "cta": {
+      "title": "Başlamağa Hazırsınız?",
+      "button": "Bizimlə Əlaqə Saxlayın"
+    }
+  },
+  "footer": {
+    "company": "TexnoChip",
+    "description": "Bütün texnoloji təmir və texniki xidmət ehtiyaclarınız üçün etibarlı tərəfdaşınız. Bütün elektron cihazlarınız üçün professional həllər təqdim edirik.",
+    "quickLinks": "Sürətli Keçidlər",
+    "services": "Xidmətlərimiz",
+    "contact": "Əlaqə Məlumatı",
+    "address": "Texnologiya küçəsi 123, Bakı, Azərbaycan",
+    "phone": "+994 77 334 44 99",
+    "email": "info@texnochip.az",
+    "hours": "Bazar ertəsi - Şənbə: 09:00 - 19:00",
+    "rights": "Bütün hüquqlar qorunur."
+  },
+  "testimonials": {
+    "title": "Müştəri Rəyləri",
+    "subtitle": "Müştərilərimiz bizim haqqımızda nə deyir",
+    "reviews": [
+      {
+        "text": "Çox professional və sürətli xidmət. Problemlərimi qısa müddətdə həll etdilər. Məsləhət görürəm!",
+        "name": "Müştəri 1",
+        "location": "Bakı"
+      },
+      {
+        "text": "Əla xidmət və münasib qiymətlər. Komanda çox bilikli və köməkçidir.",
+        "name": "Müştəri 2",
+        "location": "Bakı"
+      },
+      {
+        "text": "Şəhərdəki ən yaxşı təmir xidməti. Noutbukumu çox tez təmir etdilər. Mütləq yenidən gələcəyəm!",
+        "name": "Müştəri 3",
+        "location": "Bakı"
+      }
+    ]
+  }
+} 

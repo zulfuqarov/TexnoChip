@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Computer & Mobile Repair Services",
+    "subtitle": "Fast, reliable and professional repair services for all your devices",
+    "cta": "Get Started"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your trusted partner in technology repair and maintenance",
+    "stats": {
+      "years": "Years of Experience",
+      "clients": "Happy Clients",
+      "repairs": "Successful Repairs",
+      "satisfaction": "Customer Satisfaction"
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "Founded in 2024, we've been at the forefront of technology repair and maintenance, serving thousands of satisfied customers.",
+      "milestones": {
+        "1": {
+          "title": "The Beginning",
+          "description": "Started as a small repair shop with a big vision"
+        },
+        "2": {
+          "title": "Growth & Innovation",
+          "description": "Expanded services and embraced new technologies"
+        },
+        "3": {
+          "title": "Today & Beyond",
+          "description": "Leading the industry with cutting-edge solutions"
+        }
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Meet the experts behind our success",
+      "roles": {
+        "ceo": "CEO & Founder",
+        "technician": "Lead Technician",
+        "support": "Customer Support"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide our work",
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on the quality of our services"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Constantly evolving and adopting new technologies"
+      },
+      "service": {
+        "title": "Customer Service",
+        "description": "Your satisfaction is our top priority"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a wide range of repair services",
+    "description": "Our team of experts provides comprehensive repair services for all your devices. We use only genuine parts and follow industry best practices to ensure the highest quality of service.",
+    "computer": {
+      "title": "Computer Repair",
+      "description": "Professional computer repair services for all brands and models",
+      "features": [
+        "Hardware diagnostics and repair",
+        "Software installation and configuration",
+        "Virus removal and system optimization",
+        "Data recovery and backup",
+        "Component upgrades and replacement"
+      ]
+    },
+    "mobile": {
+      "title": "Mobile Repair",
+      "description": "Expert mobile phone repair services for all devices",
+      "features": [
+        "Screen replacement",
+        "Battery replacement",
+        "Camera repair",
+        "Water damage repair",
+        "Software issues and updates"
+      ]
+    },
+    "laptop": {
+      "title": "Laptop Repair",
+      "description": "Comprehensive laptop repair and maintenance services",
+      "features": [
+        "Hardware diagnostics",
+        "Screen and keyboard replacement",
+        "Battery and power issues",
+        "Motherboard repair",
+        "Cooling system maintenance"
+      ]
+    },
+    "tablet": {
+      "title": "Tablet Repair",
+      "description": "Professional tablet repair services",
+      "features": [
+        "Screen repair",
+        "Battery replacement",
+        "Charging port repair",
+        "Software troubleshooting",
+        "Data recovery"
+      ]
+    },
+    "network": {
+      "title": "Network Solutions",
+      "description": "Complete network setup and troubleshooting",
+      "features": [
+        "Network installation",
+        "Wi-Fi setup and optimization",
+        "Security configuration",
+        "Troubleshooting",
+        "Performance optimization"
+      ]
+    },
+    "data": {
+      "title": "Data Recovery",
+      "description": "Professional data recovery services",
+      "features": [
+        "Hard drive recovery",
+        "SSD data recovery",
+        "RAID recovery",
+        "Mobile device recovery",
+        "Backup solutions"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're here to help with all your tech repair needs. Contact us today!",
+    "form": {
+      "title": "Send us a Message",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again later.",
+      "loading": "Sending your message..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": {
+        "title": "Our Location",
+        "value": "123 Tech Street, Baku, Azerbaijan"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "value": "++994 77 334 44 99"
+      },
+      "email": {
+        "title": "Email Address",
+        "value": "info@texnochip.az"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "value": "Monday - Saturday: 9:00 AM - 7:00 PM"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the perfect plan for your needs",
+    "month": "month",
+    "popular": "Most Popular",
+    "cta": "Get Started",
+    "plans": {
+      "basic": {
+        "title": "Basic Plan"
+      },
+      "standard": {
+        "title": "Standard Plan"
+      },
+      "premium": {
+        "title": "Premium Plan"
+      }
+    },
+    "features": {
+      "diagnosis": "Free Diagnosis",
+      "software": "Software Installation",
+      "cleaning": "Device Cleaning",
+      "support": "Basic Support",
+      "parts": "Parts Replacement",
+      "warranty": "90 Days Warranty",
+      "priority": "Priority Service",
+      "backup": "Data Backup"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our services",
+      "questions": {
+        "1": {
+          "title": "What's included in the basic plan?",
+          "answer": "The basic plan includes free diagnosis, software installation, device cleaning, and basic support."
+        },
+        "2": {
+          "title": "How long does repair take?",
+          "answer": "Most repairs are completed within 24-48 hours, depending on the complexity of the issue."
+        },
+        "3": {
+          "title": "Do you offer warranty?",
+          "answer": "Yes, we offer a 90-day warranty on all repairs and parts replacement."
+        },
+        "4": {
+          "title": "Can I upgrade my plan later?",
+          "answer": "Yes, you can upgrade your plan at any time. Contact us to discuss your options."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "button": "Contact Us Now"
+    }
+  },
+  "footer": {
+    "company": "TexnoChip",
+    "description": "Your trusted partner for all tech repair and maintenance services. We provide professional solutions for all your electronic devices.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contact": "Contact Info",
+    "address": "123 Tech Street, Baku, Azerbaijan",
+    "phone": "+994 77 334 44 99",
+    "email": "info@texnochip.az",
+    "hours": "Monday - Saturday: 9:00 AM - 7:00 PM",
+    "rights": "All rights reserved."
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "subtitle": "What our customers say about us"
+  }
+} 
