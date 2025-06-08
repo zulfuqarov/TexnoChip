@@ -129,7 +129,7 @@ const Pricing = () => {
                         : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                     }`}
                   >
-                    {t('pricing.cta')}
+                    {t('pricing.planButton')}
                   </Link>
                 </div>
               </motion.div>

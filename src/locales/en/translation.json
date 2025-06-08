@@ -176,7 +176,7 @@
     "subtitle": "Choose the perfect plan for your needs",
     "month": "month",
     "popular": "Most Popular",
-    "cta": "Get Started",
+    "planButton": "Get Started",
     "plans": {
       "basic": {
         "title": "Basic Plan"

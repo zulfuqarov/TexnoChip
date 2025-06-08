@@ -176,7 +176,7 @@
     "subtitle": "Ehtiyaclarınız üçün mükəmməl planı seçin",
     "month": "ay",
     "popular": "Ən Populyar",
-    "cta": "Başla",
+    "planButton": "Başla",
     "plans": {
       "basic": {
         "title": "Əsas Plan"
