@@ -243,17 +243,17 @@
     "reviews": [
       {
         "text": "Çox professional və sürətli xidmət. Problemlərimi qısa müddətdə həll etdilər. Məsləhət görürəm!",
-        "name": "Müştəri 1",
+        "name": "Kamil",
         "location": "Bakı"
       },
       {
         "text": "Əla xidmət və münasib qiymətlər. Komanda çox bilikli və köməkçidir.",
-        "name": "Müştəri 2",
+        "name": "Aygün",
         "location": "Bakı"
       },
       {
         "text": "Şəhərdəki ən yaxşı təmir xidməti. Noutbukumu çox tez təmir etdilər. Mütləq yenidən gələcəyəm!",
-        "name": "Müştəri 3",
+        "name": "Rüsdəm",
         "location": "Bakı"
       }
     ]

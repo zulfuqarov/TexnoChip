@@ -239,6 +239,23 @@
   },
   "testimonials": {
     "title": "Customer Reviews",
-    "subtitle": "What our customers say about us"
+    "subtitle": "What our customers say about us",
+    "reviews": [
+      {
+        "text": "Very professional and fast service. They solved my problems quickly. I recommend!",
+        "name": "Kamil",
+        "location": "Baku"
+      },
+      {
+        "text": "Excellent service and reasonable prices. The team is very knowledgeable and helpful.",
+        "name": "Aygün",
+        "location": "Baku"
+      },
+      {
+        "text": "The best repair service in the city. They fixed my laptop very quickly. I will definitely come again!",
+        "name": "Rüsdəm",
+        "location": "Baku"
+      }
+    ]
   }
 } 

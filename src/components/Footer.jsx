@@ -92,7 +92,7 @@ const Footer = () => {
                   to="/services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  {t('services.phone.title')}
+                  {t('services.mobile.title')}
                 </Link>
               </li>
               <li>
@@ -116,7 +116,7 @@ const Footer = () => {
                   to="/services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  {t('services.accessories.title')}
+                  {t('services.computer.title')}
                 </Link>
               </li>
             </ul>

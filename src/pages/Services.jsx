@@ -2,14 +2,24 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Services = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [expandedReviews, setExpandedReviews] = useState({});
+  const [reviews, setReviews] = useState([]);
+
+  useEffect(() => {
+    const loadReviews = () => {
+      const translatedReviews = t('testimonials.reviews', { returnObjects: true });
+      setReviews(translatedReviews);
+    };
+
+    loadReviews();
+  }, [t, i18n.language]);
 
   const toggleReview = (index) => {
     setExpandedReviews(prev => ({
@@ -68,26 +78,6 @@ const Services = () => {
       features: t('services.data.features', { returnObjects: true })
     }
   ];
-
-  const testimonials = {
-    reviews: [
-      {
-        text: "Çox professional və sürətli xidmət. Problemlərimi qısa müddətdə həll etdilər. Məsləhət görürəm!",
-        name: "Müştəri 1",
-        location: "Bakı"
-      },
-      {
-        text: "Əla xidmət və münasib qiymətlər. Komanda çox bilikli və köməkçidir.",
-        name: "Müştəri 2",
-        location: "Bakı"
-      },
-      {
-        text: "Şəhərdəki ən yaxşı təmir xidməti. Noutbukumu çox tez təmir etdilər. Mütləq yenidən gələcəyəm!",
-        name: "Müştəri 3",
-        location: "Bakı"
-      }
-    ]
-  };
 
   return (
     <div className="min-h-screen">
@@ -201,7 +191,7 @@ const Services = () => {
             }}
             className="pb-12"
           >
-            {testimonials.reviews.map((review, index) => (
+            {reviews.map((review, index) => (
               <SwiperSlide key={index}>
                 <div className="bg-white mb-[50px] p-8 rounded-lg shadow-lg h-[320px] flex flex-col justify-between">
                   <div>
