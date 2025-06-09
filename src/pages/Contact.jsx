@@ -93,7 +93,7 @@ const Contact = () => {
     setStatus({ type: 'loading', message: t('contact.form.loading') });
 
     try {
-      const response = await axios.post('http://localhost:3001/send-email', formData);
+      const response = await axios.post('https://api.texnochip.az/send-email', formData);
       console.log(response);
       setStatus({
         type: 'success',
