@@ -67,7 +67,52 @@
   "services": {
     "title": "Our Services",
     "subtitle": "We offer a wide range of repair services",
-    "description": "Our team of experts provides comprehensive repair services for all your devices. We use only genuine parts and follow industry best practices to ensure the highest quality of service.",
+    "description": "Our expert team provides comprehensive repair services for all your devices. We only use original spare parts and follow industry standards to ensure the highest service quality.",
+    "security": {
+      "title": "Security Systems",
+      "description": "Protection of your facilities with modern security solutions",
+      "features": [
+        "Installation of camera systems",
+        "Alarm and monitoring systems",
+        "Remote monitoring and mobile app support"
+      ]
+    },
+    "network_infrastructure": {
+      "title": "Network Infrastructure Setup",
+      "description": "Professional network setup and optimization services for offices and enterprises",
+      "features": [
+        "LAN and WLAN system setup",
+        "Internet connection sharing and enhancement",
+        "Equipment installation and configuration"
+      ]
+    },
+    "access_control": {
+      "title": "Turnstile and Barrier Systems",
+      "description": "Complete access control with passage and monitoring systems",
+      "features": [
+        "Turnstile installation and management systems",
+        "Automatic barrier systems",
+        "Integration with card, fingerprint and other biometric systems"
+      ]
+    },
+    "equipment_sales": {
+      "title": "Technical Equipment Sales",
+      "description": "Supply of quality products and spare parts",
+      "features": [
+        "Sales of phones, laptops and other technical devices",
+        "Spare parts (screens, batteries, keyboards, etc.)",
+        "Digital accessories and peripheral equipment"
+      ]
+    },
+    "server_room": {
+      "title": "Server Room Setup",
+      "description": "Proper and secure setup of server infrastructure",
+      "features": [
+        "Server room planning and equipment",
+        "IT equipment placement and cooling systems",
+        "Electrical and backup power supply"
+      ]
+    },
     "computer": {
       "title": "Computer Repair",
       "description": "Professional computer repair services for all brands and models",
@@ -76,7 +121,7 @@
         "Software installation and configuration",
         "Virus removal and system optimization",
         "Data recovery and backup",
-        "Component upgrades and replacement"
+        "Component upgrades and replacements"
       ]
     },
     "mobile": {
@@ -88,39 +133,6 @@
         "Camera repair",
         "Water damage repair",
         "Software issues and updates"
-      ]
-    },
-    "laptop": {
-      "title": "Laptop Repair",
-      "description": "Comprehensive laptop repair and maintenance services",
-      "features": [
-        "Hardware diagnostics",
-        "Screen and keyboard replacement",
-        "Battery and power issues",
-        "Motherboard repair",
-        "Cooling system maintenance"
-      ]
-    },
-    "tablet": {
-      "title": "Tablet Repair",
-      "description": "Professional tablet repair services",
-      "features": [
-        "Screen repair",
-        "Battery replacement",
-        "Charging port repair",
-        "Software troubleshooting",
-        "Data recovery"
-      ]
-    },
-    "network": {
-      "title": "Network Solutions",
-      "description": "Complete network setup and troubleshooting",
-      "features": [
-        "Network installation",
-        "Wi-Fi setup and optimization",
-        "Security configuration",
-        "Troubleshooting",
-        "Performance optimization"
       ]
     },
     "data": {
@@ -159,7 +171,7 @@
       },
       "phone": {
         "title": "Phone Number",
-        "value": "++994 77 334 44 99"
+        "value": "++994 099 334 44 99"
       },
       "email": {
         "title": "Email Address",
@@ -232,7 +244,7 @@
     "services": "Our Services",
     "contact": "Contact Info",
     "address": "123 Tech Street, Baku, Azerbaijan",
-    "phone": "+994 77 334 44 99",
+    "phone": "+994 099 334 44 99",
     "email": "info@texnochip.az",
     "hours": "Monday - Saturday: 9:00 AM - 7:00 PM",
     "rights": "All rights reserved."

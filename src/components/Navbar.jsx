@@ -45,11 +45,23 @@ const Navbar = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center"
+              className={`w-10 h-10 rounded-lg flex items-center justify-center ${
+                isScrolled 
+                  ? 'bg-blue-600'
+                  : 'bg-white'
+              }`}
             >
-              <span className="text-white text-xl font-bold">T</span>
+              <span className={`text-xl font-bold ${
+                isScrolled 
+                  ? 'text-white'
+                  : 'text-blue-600'
+              }`}>T</span>
             </motion.div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
+            <span className={`text-2xl font-bold bg-clip-text text-transparent ${
+              isScrolled 
+                ? 'bg-gradient-to-r from-blue-600 to-blue-400'
+                : 'bg-gradient-to-r from-white to-gray-200'
+            }`}>
               TexnoChip
             </span>
           </Link>

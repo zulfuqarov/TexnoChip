@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import Map from '../components/Map';
+import axios from 'axios';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -12,6 +13,7 @@ const Contact = () => {
     subject: '',
     message: ''
   });
+  const [errors, setErrors] = useState({});
   const [status, setStatus] = useState({
     type: '',
     message: ''
@@ -22,20 +24,77 @@ const Contact = () => {
     visible: { opacity: 1, y: 0 }
   };
 
+  const validateForm = () => {
+    const newErrors = {};
+    
+    // Name validation
+    if (!formData.name.trim()) {
+      newErrors.name = 'Ad boş ola bilməz';
+    } else if (formData.name.length < 2) {
+      newErrors.name = 'Ad ən azı 2 simvol olmalıdır';
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email boş ola bilməz';
+    } else if (!emailRegex.test(formData.email)) {
+      newErrors.email = 'Düzgün email ünvanı daxil edin';
+    }
+
+    // Phone validation
+    const phoneRegex = /^[0-9]{10}$/;
+    if (!formData.phone.trim()) {
+      newErrors.phone = 'Telefon nömrəsi boş ola bilməz';
+    } else if (!phoneRegex.test(formData.phone.replace(/\D/g, ''))) {
+      newErrors.phone = 'Düzgün telefon nömrəsi daxil edin (10 rəqəm)';
+    }
+
+    // Subject validation
+    if (!formData.subject.trim()) {
+      newErrors.subject = 'Mövzu boş ola bilməz';
+    } else if (formData.subject.length < 3) {
+      newErrors.subject = 'Mövzu ən azı 3 simvol olmalıdır';
+    }
+
+    // Message validation
+    if (!formData.message.trim()) {
+      newErrors.message = 'Mesaj boş ola bilməz';
+    } else if (formData.message.length < 10) {
+      newErrors.message = 'Mesaj ən azı 10 simvol olmalıdır';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({
+        ...prev,
+        [name]: ''
+      }));
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    if (!validateForm()) {
+      return;
+    }
+
     setStatus({ type: 'loading', message: t('contact.form.loading') });
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      const response = await axios.post('http://localhost:3001/send-email', formData);
+      console.log(response);
       setStatus({
         type: 'success',
         message: t('contact.form.success')
@@ -47,6 +106,7 @@ const Contact = () => {
         subject: '',
         message: ''
       });
+      setErrors({});
     } catch (error) {
       setStatus({
         type: 'error',
@@ -107,8 +167,13 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+                      errors.name ? 'border-red-500' : 'border-gray-300'
+                    }`}
                   />
+                  {errors.name && (
+                    <p className="mt-1 text-sm text-red-500">{errors.name}</p>
+                  )}
                 </div>
                 <div>
                   <label
@@ -124,8 +189,13 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+                      errors.email ? 'border-red-500' : 'border-gray-300'
+                    }`}
                   />
+                  {errors.email && (
+                    <p className="mt-1 text-sm text-red-500">{errors.email}</p>
+                  )}
                 </div>
                 <div>
                   <label
@@ -141,8 +211,13 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+                      errors.phone ? 'border-red-500' : 'border-gray-300'
+                    }`}
                   />
+                  {errors.phone && (
+                    <p className="mt-1 text-sm text-red-500">{errors.phone}</p>
+                  )}
                 </div>
                 <div>
                   <label
@@ -158,8 +233,13 @@ const Contact = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+                      errors.subject ? 'border-red-500' : 'border-gray-300'
+                    }`}
                   />
+                  {errors.subject && (
+                    <p className="mt-1 text-sm text-red-500">{errors.subject}</p>
+                  )}
                 </div>
                 <div>
                   <label
@@ -175,18 +255,22 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={4}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+                      errors.message ? 'border-red-500' : 'border-gray-300'
+                    }`}
                   />
+                  {errors.message && (
+                    <p className="mt-1 text-sm text-red-500">{errors.message}</p>
+                  )}
                 </div>
                 {status.message && (
                   <div
-                    className={`p-4 rounded-lg ${
-                      status.type === 'success'
+                    className={`p-4 rounded-lg ${status.type === 'success'
                         ? 'bg-green-100 text-green-700'
                         : status.type === 'error'
-                        ? 'bg-red-100 text-red-700'
-                        : 'bg-blue-100 text-blue-700'
-                    }`}
+                          ? 'bg-red-100 text-red-700'
+                          : 'bg-blue-100 text-blue-700'
+                      }`}
                   >
                     {status.message}
                   </div>

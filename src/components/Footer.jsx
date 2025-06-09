@@ -34,7 +34,7 @@ const Footer = () => {
                 <FaInstagram className="h-6 w-6" />
               </a>
               <a
-                href="https://wa.me/994773344499"
+                href="https://wa.me/9940993344499"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

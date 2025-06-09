@@ -67,64 +67,76 @@
   "services": {
     "title": "Xidmətlərimiz",
     "subtitle": "Geniş təmir xidmətləri təklif edirik",
-    "description": "Ekspert komandamız bütün cihazlarınız üçün hərtərəfli təmir xidmətləri təqdim edir. Biz yalnız orijinal ehtiyat hissələrindən istifadə edir və ən yüksək xidmət keyfiyyətini təmin etmək üçün sənaye standartlarına əməl edirik.",
+    "description": "Ekspert komandamız bütün cihazlarınız üçün hərtərəfli təmir xidmətləri təqdim edir. Yalnız orijinal ehtiyat hissələrindən istifadə edir və ən yüksək xidmət keyfiyyətini təmin etmək üçün sənaye standartlarına riayət edirik.",
+    "security": {
+      "title": "Təhlükəsizlik Sistemləri",
+      "description": "Müasir təhlükəsizlik həlləri ilə obyektlərinizin qorunması",
+      "features": [
+        "Kamera sistemlərinin quraşdırılması",
+        "Siqnalizasiya və monitorinq sistemləri",
+        "Uzaqdan monitorinq və mobil tətbiq dəstəyi"
+      ]
+    },
+    "network_infrastructure": {
+      "title": "Şəbəkə İnfrastrukturunun Qurulması",
+      "description": "Ofis və müəssisələr üçün professional şəbəkə qurma və optimallaşdırma xidmətləri",
+      "features": [
+        "LAN və WLAN sistemlərinin qurulması",
+        "İnternet bağlantısının paylaşdırılması və gücləndirilməsi",
+        "Avadanlıqların quraşdırılması və konfiqurasiyası"
+      ]
+    },
+    "access_control": {
+      "title": "Turniket və Barier Sistemləri",
+      "description": "Keçid və monitorinq sistemləri ilə tam giriş nəzarəti",
+      "features": [
+        "Turniketlərin quraşdırılması və idarəetmə sistemləri",
+        "Avtomatik barier sistemləri",
+        "Kart, barmaq izi və digər biometrik sistemlərlə inteqrasiya"
+      ]
+    },
+    "equipment_sales": {
+      "title": "Texniki Avadanlıqların Satışı",
+      "description": "Keyfiyyətli məhsulların və ehtiyat hissələrinin tədarükü",
+      "features": [
+        "Telefon, noutbuk və digər texniki cihazların satışı",
+        "Ehtiyat hissələri (ekranlar, batareyalar, klaviaturalar və s.)",
+        "Rəqəmsal aksesuarlar və periferiya avadanlıqları"
+      ]
+    },
+    "server_room": {
+      "title": "Server Otaqlarının Qurulması",
+      "description": "Server infrastrukturunun düzgün və təhlükəsiz qurulması",
+      "features": [
+        "Server otağının planlaşdırılması və təchizatı",
+        "İT avadanlıqların yerləşdirilməsi və soyutma sistemləri",
+        "Elektrik və ehtiyat enerji təminatı"
+      ]
+    },
     "computer": {
       "title": "Kompüter Təmiri",
       "description": "Bütün marka və modellər üçün professional kompüter təmir xidmətləri",
       "features": [
-        "Hardware diaqnostika və təmiri",
+        "Hardware diaqnostikası və təmiri",
         "Proqram təminatının quraşdırılması və konfiqurasiyası",
-        "Virus təmizləmə və sistem optimizasiyası",
-        "Məlumat bərpası və ehtiyat nüsxəsi",
-        "Komponentlərin yenilənməsi və dəyişdirilməsi"
+        "Virus təmizlənməsi və sistem optimallaşdırılması",
+        "Məlumatların bərpası və ehtiyat nüsxəsi",
+        "Komponentlərin yenilənməsi və əvəz edilməsi"
       ]
     },
     "mobile": {
-      "title": "Mobil Təmir",
+      "title": "Telefon Təmiri",
       "description": "Bütün cihazlar üçün ekspert mobil telefon təmir xidmətləri",
       "features": [
         "Ekran dəyişdirmə",
         "Batareya dəyişdirmə",
         "Kamera təmiri",
-        "Su zərəri təmiri",
+        "Su zərərinin təmiri",
         "Proqram təminatı problemləri və yeniləmələr"
       ]
     },
-    "laptop": {
-      "title": "Noutbuk Təmiri",
-      "description": "Hərtərəfli noutbuk təmir və texniki xidmət",
-      "features": [
-        "Hardware diaqnostika",
-        "Ekran və klaviatura dəyişdirmə",
-        "Batareya və enerji problemləri",
-        "Ana lövhə təmiri",
-        "Soyutma sistemi texniki xidməti"
-      ]
-    },
-    "tablet": {
-      "title": "Planşet Təmiri",
-      "description": "Professional planşet təmir xidmətləri",
-      "features": [
-        "Ekran təmiri",
-        "Batareya dəyişdirmə",
-        "Yükləmə portu təmiri",
-        "Proqram təminatı problemlərinin həlli",
-        "Məlumat bərpası"
-      ]
-    },
-    "network": {
-      "title": "Şəbəkə Həlləri",
-      "description": "Tam şəbəkə quraşdırması və problemlərin həlli",
-      "features": [
-        "Şəbəkə quraşdırması",
-        "Wi-Fi quraşdırması və optimizasiyası",
-        "Təhlükəsizlik konfiqurasiyası",
-        "Problemlərin həlli",
-        "Performans optimizasiyası"
-      ]
-    },
     "data": {
-      "title": "Məlumat Bərpası",
+      "title": "Məlumatların Bərpası",
       "description": "Professional məlumat bərpası xidmətləri",
       "features": [
         "Sərt disk bərpası",
@@ -159,7 +171,7 @@
       },
       "phone": {
         "title": "Telefon",
-        "value": "+994 77 334 44 99"
+        "value": "+994 099 334 44 99"
       },
       "email": {
         "title": "Email",
@@ -232,7 +244,7 @@
     "services": "Xidmətlərimiz",
     "contact": "Əlaqə Məlumatı",
     "address": "Texnologiya küçəsi 123, Bakı, Azərbaycan",
-    "phone": "+994 77 334 44 99",
+    "phone": "+994 099 334 44 99",
     "email": "info@texnochip.az",
     "hours": "Bazar ertəsi - Şənbə: 09:00 - 19:00",
     "rights": "Bütün hüquqlar qorunur."

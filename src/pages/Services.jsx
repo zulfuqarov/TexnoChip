@@ -42,6 +42,18 @@ const Services = () => {
 
   const services = [
     {
+      icon: '🛠️',
+      title: t('services.equipment_sales.title'),
+      description: t('services.equipment_sales.description'),
+      features: t('services.equipment_sales.features', { returnObjects: true })
+    },
+    {
+      icon: '🗄️',
+      title: t('services.server_room.title'),
+      description: t('services.server_room.description'),
+      features: t('services.server_room.features', { returnObjects: true })
+    },
+    {
       icon: '💻',
       title: t('services.computer.title'),
       description: t('services.computer.description'),
@@ -54,28 +66,28 @@ const Services = () => {
       features: t('services.mobile.features', { returnObjects: true })
     },
     {
-      icon: '🖥️',
-      title: t('services.laptop.title'),
-      description: t('services.laptop.description'),
-      features: t('services.laptop.features', { returnObjects: true })
-    },
-    {
-      icon: '📱',
-      title: t('services.tablet.title'),
-      description: t('services.tablet.description'),
-      features: t('services.tablet.features', { returnObjects: true })
-    },
-    {
-      icon: '🌐',
-      title: t('services.network.title'),
-      description: t('services.network.description'),
-      features: t('services.network.features', { returnObjects: true })
-    },
-    {
       icon: '💾',
       title: t('services.data.title'),
       description: t('services.data.description'),
       features: t('services.data.features', { returnObjects: true })
+    },
+    {
+      icon: '🔒',
+      title: t('services.security.title'),
+      description: t('services.security.description'),
+      features: t('services.security.features', { returnObjects: true })
+    },
+    {
+      icon: '🌐',
+      title: t('services.network_infrastructure.title'),
+      description: t('services.network_infrastructure.description'),
+      features: t('services.network_infrastructure.features', { returnObjects: true })
+    },
+    {
+      icon: '🚧',
+      title: t('services.access_control.title'),
+      description: t('services.access_control.description'),
+      features: t('services.access_control.features', { returnObjects: true })
     }
   ];
 

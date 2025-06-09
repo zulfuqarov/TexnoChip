@@ -12,6 +12,16 @@ const Home = () => {
 
   const services = [
     {
+      icon: '🛠️',
+      title: t('services.equipment_sales.title'),
+      description: t('services.equipment_sales.description')
+    },
+    {
+      icon: '🗄️',
+      title: t('services.server_room.title'),
+      description: t('services.server_room.description')
+    },
+    {
       icon: '💻',
       title: t('services.computer.title'),
       description: t('services.computer.description')
@@ -22,14 +32,24 @@ const Home = () => {
       description: t('services.mobile.description')
     },
     {
-      icon: '🖥️',
-      title: t('services.laptop.title'),
-      description: t('services.laptop.description')
+      icon: '💾',
+      title: t('services.data.title'),
+      description: t('services.data.description')
     },
     {
-      icon: '📱',
-      title: t('services.tablet.title'),
-      description: t('services.tablet.description')
+      icon: '🔒',
+      title: t('services.security.title'),
+      description: t('services.security.description')
+    },
+    {
+      icon: '🌐',
+      title: t('services.network_infrastructure.title'),
+      description: t('services.network_infrastructure.description')
+    },
+    {
+      icon: '🚧',
+      title: t('services.access_control.title'),
+      description: t('services.access_control.description')
     }
   ];
 
