@@ -13,39 +13,44 @@ const Pricing = () => {
   const plans = [
     {
       name: 'basic',
-      price: '50',
+      price: 299,
+      popular: false,
       features: [
-        'diagnosis',
-        'software',
-        'cleaning',
-        'support'
+        'security_basic',
+        'network_basic',
+        'access_control_basic',
+        'computer_basic',
+        'mobile_basic',
+        'data_basic',
+        'support_basic'
       ]
     },
     {
-      name: 'standard',
-      price: '100',
+      name: 'professional',
+      price: 599,
+      popular: true,
       features: [
-        'diagnosis',
-        'software',
-        'cleaning',
-        'support',
-        'parts',
-        'warranty'
-      ],
-      popular: true
+        'security_pro',
+        'network_pro',
+        'access_control_pro',
+        'computer_pro',
+        'mobile_pro',
+        'data_pro',
+        'support_pro'
+      ]
     },
     {
-      name: 'premium',
-      price: '150',
+      name: 'enterprise',
+      price: 999,
+      popular: false,
       features: [
-        'diagnosis',
-        'software',
-        'cleaning',
-        'support',
-        'parts',
-        'warranty',
-        'priority',
-        'backup'
+        'security_enterprise',
+        'network_enterprise',
+        'access_control_enterprise',
+        'computer_enterprise',
+        'mobile_enterprise',
+        'data_enterprise',
+        'support_enterprise'
       ]
     }
   ];
@@ -99,7 +104,7 @@ const Pricing = () => {
                   </h3>
                   <div className="mb-6">
                     <span className="text-4xl font-bold text-gray-900">
-                      ${plan.price}
+                      ₼{plan.price}
                     </span>
                     <span className="text-gray-600">/ {t('pricing.month')}</span>
                   </div>
@@ -198,6 +203,112 @@ const Pricing = () => {
               {t('pricing.cta.button')}
             </Link>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Individual Services Pricing */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            variants={fadeIn}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              {t('pricing.individual.title')}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              {t('pricing.individual.subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: '🔒',
+                title: 'security',
+                price: 199,
+                features: ['security_feature1', 'security_feature2', 'security_feature3']
+              },
+              {
+                icon: '🌐',
+                title: 'network',
+                price: 299,
+                features: ['network_feature1', 'network_feature2', 'network_feature3']
+              },
+              {
+                icon: '🚧',
+                title: 'access_control',
+                price: 249,
+                features: ['access_feature1', 'access_feature2', 'access_feature3']
+              },
+              {
+                icon: '💻',
+                title: 'computer',
+                price: 149,
+                features: ['computer_feature1', 'computer_feature2', 'computer_feature3']
+              },
+              {
+                icon: '📱',
+                title: 'mobile',
+                price: 129,
+                features: ['mobile_feature1', 'mobile_feature2', 'mobile_feature3']
+              },
+              {
+                icon: '💾',
+                title: 'data',
+                price: 179,
+                features: ['data_feature1', 'data_feature2', 'data_feature3']
+              }
+            ].map((service, index) => (
+              <motion.div
+                key={service.title}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeIn}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
+              >
+                <div className="text-4xl mb-4">{service.icon}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                  {t(`pricing.individual.services.${service.title}.title`)}
+                </h3>
+                <div className="mb-6">
+                  <span className="text-3xl font-bold text-gray-900">
+                    ₼{service.price}
+                  </span>
+                  <span className="text-gray-600">/ {t('pricing.individual.period')}</span>
+                </div>
+                <ul className="space-y-3 mb-8">
+                  {service.features.map((feature) => (
+                    <li key={feature} className="flex items-center">
+                      <svg
+                        className="h-5 w-5 text-green-500 mr-3"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path d="M5 13l4 4L19 7" />
+                      </svg>
+                      {t(`pricing.individual.services.${service.title}.features.${feature}`)}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  to="/contact"
+                  className="block w-full text-center py-3 px-6 rounded-lg font-semibold bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300"
+                >
+                  {t('pricing.individual.contactButton')}
+                </Link>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
     </div>

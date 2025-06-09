@@ -7,9 +7,9 @@
     "contact": "Əlaqə"
   },
   "hero": {
-    "title": "Professional Kompüter və Mobil Təmir Xidmətləri",
-    "subtitle": "Bütün cihazlarınız üçün sürətli, etibarlı və professional təmir xidmətləri",
-    "cta": "Başla"
+    "title": "Professional Texnoloji Həllər və Təhlükəsizlik Sistemləri",
+    "subtitle": "Təhlükəsizlik sistemləri, şəbəkə infrastrukturu, giriş nəzarəti və texnoloji xidmətlər üçün etibarlı həllər",
+    "cta": "Xidmətlərimizi Kəşf Edin"
   },
   "about": {
     "title": "Haqqımızda",
@@ -184,31 +184,44 @@
     }
   },
   "pricing": {
-    "title": "Qiymət Planları",
-    "subtitle": "Ehtiyaclarınız üçün mükəmməl planı seçin",
+    "title": "Qiymətləndirmə",
+    "subtitle": "Sizin ehtiyaclarınıza uyğun qiymətləndirmə planları",
     "month": "ay",
     "popular": "Ən Populyar",
-    "planButton": "Başla",
+    "planButton": "İndi Başlayın",
     "plans": {
       "basic": {
         "title": "Əsas Plan"
       },
-      "standard": {
-        "title": "Standart Plan"
+      "professional": {
+        "title": "Professional Plan"
       },
-      "premium": {
-        "title": "Premium Plan"
+      "enterprise": {
+        "title": "Korporativ Plan"
       }
     },
     "features": {
-      "diagnosis": "Pulsuz Diaqnostika",
-      "software": "Proqram Quraşdırma",
-      "cleaning": "Cihaz Təmizliyi",
-      "support": "Əsas Dəstək",
-      "parts": "Hissələrin Dəyişdirilməsi",
-      "warranty": "90 Gün Zəmanət",
-      "priority": "Prioritet Xidmət",
-      "backup": "Məlumat Ehtiyatı"
+      "security_basic": "Əsas təhlükəsizlik sistemləri",
+      "network_basic": "Əsas şəbəkə infrastrukturu",
+      "access_control_basic": "Əsas giriş nəzarəti",
+      "computer_basic": "Əsas kompüter xidmətləri",
+      "mobile_basic": "Əsas mobil xidmətlər",
+      "data_basic": "Əsas məlumat xidmətləri",
+      "support_basic": "1 ay dəstək",
+      "security_pro": "Təkmilləşdirilmiş təhlükəsizlik sistemləri",
+      "network_pro": "Professional şəbəkə infrastrukturu",
+      "access_control_pro": "Təkmilləşdirilmiş giriş nəzarəti",
+      "computer_pro": "Professional kompüter xidmətləri",
+      "mobile_pro": "Professional mobil xidmətlər",
+      "data_pro": "Professional məlumat xidmətləri",
+      "support_pro": "3 ay dəstək",
+      "security_enterprise": "Tam təhlükəsizlik həlli",
+      "network_enterprise": "Korporativ şəbəkə infrastrukturu",
+      "access_control_enterprise": "Tam giriş nəzarəti sistemi",
+      "computer_enterprise": "Korporativ kompüter xidmətləri",
+      "mobile_enterprise": "Korporativ mobil xidmətlər",
+      "data_enterprise": "Korporativ məlumat xidmətləri",
+      "support_enterprise": "6 ay dəstək"
     },
     "faq": {
       "title": "Tez-tez Soruşulan Suallar",
@@ -235,6 +248,62 @@
     "cta": {
       "title": "Başlamağa Hazırsınız?",
       "button": "Bizimlə Əlaqə Saxlayın"
+    },
+    "individual": {
+      "title": "Fərdi Xidmətlər",
+      "subtitle": "Hər bir xidmət üçün ayrıca qiymətləndirmə",
+      "period": "ay",
+      "contactButton": "Əlaqə Saxlayın",
+      "services": {
+        "security": {
+          "title": "Təhlükəsizlik Sistemləri",
+          "features": {
+            "security_feature1": "Kamera sistemlərinin quraşdırılması",
+            "security_feature2": "Siqnalizasiya sistemləri",
+            "security_feature3": "Uzaqdan monitorinq"
+          }
+        },
+        "network": {
+          "title": "Şəbəkə İnfrastrukturu",
+          "features": {
+            "network_feature1": "LAN və WLAN qurulması",
+            "network_feature2": "İnternet bağlantısı optimizasiyası",
+            "network_feature3": "Avadanlıqların quraşdırılması"
+          }
+        },
+        "access_control": {
+          "title": "Giriş Nəzarəti",
+          "features": {
+            "access_feature1": "Turnstile sistemləri",
+            "access_feature2": "Barier sistemləri",
+            "access_feature3": "Biometrik sistemlər"
+          }
+        },
+        "computer": {
+          "title": "Kompüter Xidmətləri",
+          "features": {
+            "computer_feature1": "Kompüter təmiri",
+            "computer_feature2": "Proqram quraşdırma",
+            "computer_feature3": "Sistem optimizasiyası"
+          }
+        },
+        "mobile": {
+          "title": "Mobil Xidmətlər",
+          "features": {
+            "mobile_feature1": "Telefon təmiri",
+            "mobile_feature2": "Ekran dəyişdirmə",
+            "mobile_feature3": "Proqram quraşdırma"
+          }
+        },
+        "data": {
+          "title": "Məlumat Xidmətləri",
+          "features": {
+            "data_feature1": "Məlumat bərpası",
+            "data_feature2": "Məlumat ehtiyatı",
+            "data_feature3": "Məlumat təhlükəsizliyi"
+          }
+        }
+      }
     }
   },
   "footer": {

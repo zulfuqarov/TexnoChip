@@ -7,9 +7,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Professional Computer & Mobile Repair Services",
-    "subtitle": "Fast, reliable and professional repair services for all your devices",
-    "cta": "Get Started"
+    "title": "Professional Technology Solutions & Security Systems",
+    "subtitle": "Reliable solutions for security systems, network infrastructure, access control, and technology services",
+    "cta": "Explore Our Services"
   },
   "about": {
     "title": "About Us",
@@ -184,31 +184,44 @@
     }
   },
   "pricing": {
-    "title": "Pricing Plans",
-    "subtitle": "Choose the perfect plan for your needs",
+    "title": "Pricing",
+    "subtitle": "Pricing plans tailored to your needs",
     "month": "month",
-    "popular": "Most Popular",
-    "planButton": "Get Started",
+    "popular": "Popular",
+    "planButton": "Get Started Now",
     "plans": {
       "basic": {
         "title": "Basic Plan"
       },
-      "standard": {
-        "title": "Standard Plan"
+      "professional": {
+        "title": "Professional Plan"
       },
-      "premium": {
-        "title": "Premium Plan"
+      "enterprise": {
+        "title": "Enterprise Plan"
       }
     },
     "features": {
-      "diagnosis": "Free Diagnosis",
-      "software": "Software Installation",
-      "cleaning": "Device Cleaning",
-      "support": "Basic Support",
-      "parts": "Parts Replacement",
-      "warranty": "90 Days Warranty",
-      "priority": "Priority Service",
-      "backup": "Data Backup"
+      "security_basic": "Basic security systems",
+      "network_basic": "Basic network infrastructure",
+      "access_control_basic": "Basic access control",
+      "computer_basic": "Basic computer services",
+      "mobile_basic": "Basic mobile services",
+      "data_basic": "Basic data services",
+      "support_basic": "1 month support",
+      "security_pro": "Enhanced security systems",
+      "network_pro": "Professional network infrastructure",
+      "access_control_pro": "Enhanced access control",
+      "computer_pro": "Professional computer services",
+      "mobile_pro": "Professional mobile services",
+      "data_pro": "Professional data services",
+      "support_pro": "3 months support",
+      "security_enterprise": "Complete security solution",
+      "network_enterprise": "Enterprise network infrastructure",
+      "access_control_enterprise": "Complete access control system",
+      "computer_enterprise": "Enterprise computer services",
+      "mobile_enterprise": "Enterprise mobile services",
+      "data_enterprise": "Enterprise data services",
+      "support_enterprise": "6 months support"
     },
     "faq": {
       "title": "Frequently Asked Questions",
@@ -235,6 +248,62 @@
     "cta": {
       "title": "Ready to Get Started?",
       "button": "Contact Us Now"
+    },
+    "individual": {
+      "title": "Individual Services",
+      "subtitle": "Pricing for individual services",
+      "period": "month",
+      "contactButton": "Contact Us",
+      "services": {
+        "security": {
+          "title": "Security Systems",
+          "features": {
+            "security_feature1": "CCTV system installation",
+            "security_feature2": "Alarm systems",
+            "security_feature3": "Remote monitoring"
+          }
+        },
+        "network": {
+          "title": "Network Infrastructure",
+          "features": {
+            "network_feature1": "LAN and WLAN setup",
+            "network_feature2": "Internet connection optimization",
+            "network_feature3": "Equipment installation"
+          }
+        },
+        "access_control": {
+          "title": "Access Control",
+          "features": {
+            "access_feature1": "Turnstile systems",
+            "access_feature2": "Barrier systems",
+            "access_feature3": "Biometric systems"
+          }
+        },
+        "computer": {
+          "title": "Computer Services",
+          "features": {
+            "computer_feature1": "Computer repair",
+            "computer_feature2": "Software installation",
+            "computer_feature3": "System optimization"
+          }
+        },
+        "mobile": {
+          "title": "Mobile Services",
+          "features": {
+            "mobile_feature1": "Phone repair",
+            "mobile_feature2": "Screen replacement",
+            "mobile_feature3": "App installation"
+          }
+        },
+        "data": {
+          "title": "Data Services",
+          "features": {
+            "data_feature1": "Data recovery",
+            "data_feature2": "Data backup",
+            "data_feature3": "Data security"
+          }
+        }
+      }
     }
   },
   "footer": {

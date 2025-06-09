@@ -85,7 +85,7 @@ const Home = () => {
             transition={{ delay: 0.4 }}
           >
             <Link
-              to="/contact"
+              to="/services"
               className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors duration-300"
             >
               {t('hero.cta')}
