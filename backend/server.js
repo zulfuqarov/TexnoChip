@@ -48,7 +48,7 @@ app.post('/send-email', async (req, res) => {
 
         const mailOptions = {
             from: 'Texno Chip <info@texnochip.az>',
-            to: 'zulfuqarov.nebi@gmail.com',
+            to: 'hesen.h@texnochip.az',
             subject: 'Yeni mesaj - Texno Chip',
             html: htmltext,
         };
