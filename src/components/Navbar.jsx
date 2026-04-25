@@ -62,7 +62,7 @@ const Navbar = () => {
                 ? 'bg-gradient-to-r from-blue-600 to-blue-400'
                 : 'bg-gradient-to-r from-white to-gray-200'
             }`}>
-              TexnoChip
+              Netex
             </span>
           </Link>
 

@@ -144,7 +144,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <p className="text-center text-gray-400">
-            © {new Date().getFullYear()} TexnoChip. {t('footer.rights')}
+            © {new Date().getFullYear()} Netex. {t('footer.rights')}
           </p>
         </div>
       </div>

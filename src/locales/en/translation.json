@@ -175,7 +175,7 @@
       },
       "email": {
         "title": "Email Address",
-        "value": "info@texnochip.az"
+        "value": "info@netex.az"
       },
       "hours": {
         "title": "Business Hours",
@@ -307,14 +307,14 @@
     }
   },
   "footer": {
-    "company": "TexnoChip",
+    "company": "Netex",
     "description": "Your trusted partner for all tech repair and maintenance services. We provide professional solutions for all your electronic devices.",
     "quickLinks": "Quick Links",
     "services": "Our Services",
     "contact": "Contact Info",
     "address": "123 Tech Street, Baku, Azerbaijan",
     "phone": "+994 099 334 44 99",
-    "email": "info@texnochip.az",
+    "email": "info@netex.az",
     "hours": "Monday - Saturday: 9:00 AM - 7:00 PM",
     "rights": "All rights reserved."
   },

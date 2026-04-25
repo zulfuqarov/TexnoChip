@@ -175,7 +175,7 @@
       },
       "email": {
         "title": "Email",
-        "value": "info@texnochip.az"
+        "value": "info@netex.az"
       },
       "hours": {
         "title": "İş Saatları",
@@ -307,14 +307,14 @@
     }
   },
   "footer": {
-    "company": "TexnoChip",
+    "company": "Netex",
     "description": "Bütün texnoloji təmir və texniki xidmət ehtiyaclarınız üçün etibarlı tərəfdaşınız. Bütün elektron cihazlarınız üçün professional həllər təqdim edirik.",
     "quickLinks": "Sürətli Keçidlər",
     "services": "Xidmətlərimiz",
     "contact": "Əlaqə Məlumatı",
     "address": "Texnologiya küçəsi 123, Bakı, Azərbaycan",
     "phone": "+994 099 334 44 99",
-    "email": "info@texnochip.az",
+    "email": "info@netex.az",
     "hours": "Bazar ertəsi - Şənbə: 09:00 - 19:00",
     "rights": "Bütün hüquqlar qorunur."
   },

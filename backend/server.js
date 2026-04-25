@@ -22,7 +22,7 @@ app.post('/send-email', async (req, res) => {
     const htmltext = `
     <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4; color: #333;">
       <div style="text-align: center; margin-bottom: 30px;">
-        <h1 style="color: #ff6600; font-size: 36px; margin: 0;">Texno Chip</h1>
+        <h1 style="color: #ff6600; font-size: 36px; margin: 0;">Netex</h1>
         <p style="font-size: 16px; color: #777;">Yeni mesaj var</p>
       </div>
       <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
@@ -37,19 +37,19 @@ app.post('/send-email', async (req, res) => {
 
     try {
         const transporter = nodemailer.createTransport({
-            host: 'mail.texnochip.az',
+            host: 'mail.netex.az',
             port: 465,
             secure: true,
             auth: {
-                user: 'info@texnochip.az',
+                user: 'info@netex.az',
                 pass: 'Hesen@1992'
             }
         });
 
         const mailOptions = {
-            from: 'Texno Chip <info@texnochip.az>',
-            to: 'hesen.h@texnochip.az',
-            subject: 'Yeni mesaj - Texno Chip',
+            from: 'Netex <info@netex.az>',
+            to: 'hesen.h@netex.az',
+            subject: 'Yeni mesaj - Netex',
             html: htmltext,
         };
 

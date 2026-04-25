@@ -175,7 +175,7 @@
       },
       "email": {
         "title": "Email",
-        "value": "info@texnochip.az"
+        "value": "info@netex.az"
       },
       "hours": {
         "title": "Часы работы",
@@ -307,14 +307,14 @@
     }
   },
   "footer": {
-    "company": "TexnoChip",
+    "company": "Netex",
     "description": "Ваш надежный партнер по ремонту и обслуживанию техники. Мы предоставляем профессиональные решения для всех ваших электронных устройств.",
     "quickLinks": "Быстрые ссылки",
     "services": "Наши услуги",
     "contact": "Контактная информация",
     "address": "ул. Технологическая, 123, Баку, Азербайджан",
     "phone": "+994 099 334 44 99",
-    "email": "info@texnochip.az",
+    "email": "info@netex.az",
     "hours": "Понедельник - Суббота: 9:00 - 19:00",
     "rights": "Все права защищены."
   },
